@@ -68,6 +68,10 @@ CREATE TABLE log_uso_sim (
     localizacao VARCHAR(255),
     data_referencia DATE, 
 
+
+
+
+
     FOREIGN KEY (id_usuario) REFERENCES usuario(id_usuario),
     FOREIGN KEY (id_situacao) REFERENCES situacao(id_situacao),
     FOREIGN KEY (id_alerta) REFERENCES altera_excesso(id_alerta),
