@@ -21,8 +21,6 @@ def inserir_departamentos(cursor):
 
 
 
-
-
 def inserir_dispositivos(cursor):
     dispositivos = ["Smartphone", "Tablet", "Roteador", "IoT"]
     for dispositivo in dispositivos:
